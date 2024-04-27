@@ -1,0 +1,3 @@
+#!/bin/bash
+# Client configuration file
+ssh-copy-id -f ubuntu@54.84.159.69
