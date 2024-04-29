@@ -1,3 +1,4 @@
+# Client configuration file (w/ Puppet)
 file { '/home/your_user/.ssh/config':
   ensure  => present,
   content => "
