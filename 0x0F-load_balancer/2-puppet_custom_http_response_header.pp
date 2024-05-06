@@ -1,4 +1,3 @@
-# Automate the task of creating a custom HTTP header response
 # Configuration for HTTP response header
 
 package { 'nginx':
