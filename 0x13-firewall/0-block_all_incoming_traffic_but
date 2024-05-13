@@ -6,12 +6,12 @@ sudo apt update
 sudo apt install ufw
 
 # Set default policy to deny incoming traffic
-sudo ufw default deny incoming
+sudo ufw deny incoming
 
 # Allow SSH (port 22), HTTPS (port 443), and HTTP (port 80)
-sudo ufw allow 22/tcp
-sudo ufw allow 443/tcp
-sudo ufw allow 80/tcp
+sudo ufw allow 22
+sudo ufw allow 443
+sudo ufw allow 80
 
 # Enable ufw
 sudo ufw reload
