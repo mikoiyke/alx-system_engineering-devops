@@ -11,7 +11,7 @@ sudo ufw allow 443
 sudo ufw allow 80
 
 # Deny all other incoming traffic
-sudo ufw deny in
+sudo ufw default deny
 
 # Enable ufw
 sudo ufw enable
